@@ -10,6 +10,7 @@
     <van-button type="warning">警告按钮</van-button>
     <van-button type="danger">危险按钮</van-button>
     <router-view />
+    <div class="box">hellow</div>
   </div>
 </template>
 <script>
@@ -17,4 +18,11 @@ export default {
   name: 'App'
 }
 </script>
-<style lang="less"></style>
+
+<style lang="less">
+.box {
+  width: 555px;
+  height: 84px;
+  background-color: #ccc;
+}
+</style>
